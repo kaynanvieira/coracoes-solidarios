@@ -1,0 +1,19 @@
+:root {
+  /* Cores */
+  --verde-escuro: #0f3b2c;
+  --verde: #1b5e45;
+  --dourado: #c9a24a;
+  --dourado-claro: #e6cf8f;
+  --creme: #f7f0dc;
+  --vinho: #8b1e2d;
+  --texto: #1f2a24;
+  --texto-claro: #f7f0dc;
+
+  /* Tipografia */
+  --fonte-titulo: "Cormorant Garamond", Georgia, serif;
+  --fonte-texto: "Poppins", system-ui, sans-serif;
+
+  /* Espaçamento e forma */
+  --raio: 16px;
+  --largura-max: 1080px;
+}
