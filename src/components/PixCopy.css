@@ -1,0 +1,9 @@
+.pix-copy {
+  background: var(--vinho);
+  color: var(--creme);
+  width: 100%;
+}
+
+.pix-copy.is-copied {
+  background: var(--verde);
+}
