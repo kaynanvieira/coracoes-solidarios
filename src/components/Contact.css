@@ -1,0 +1,31 @@
+.contact {
+  background: var(--verde-escuro);
+  color: var(--texto-claro);
+  text-align: center;
+  padding: 64px 0 32px;
+}
+
+.contact h2 {
+  font-family: var(--fonte-titulo);
+  font-size: clamp(1.8rem, 5vw, 2.5rem);
+  color: var(--dourado-claro);
+  margin-bottom: 24px;
+}
+
+.contact-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+}
+
+.contact-outline {
+  border: 2px solid var(--dourado);
+  color: var(--dourado-claro);
+}
+
+.contact-copy {
+  margin-top: 48px;
+  font-size: 0.85rem;
+  opacity: 0.7;
+}
