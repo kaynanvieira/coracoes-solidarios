@@ -31,10 +31,8 @@ export default function HowToHelp() {
           </div>
         </div>
 
-        <p className="help-note">
-          Também aceitamos doações físicas de panetones, ovos de Páscoa e caixas de
-          bombom. <a href={site.whatsapp}>Fale com a gente pelo WhatsApp</a> para
-          combinar a entrega.
+        <p className="help-intro">
+          Qualquer valor já ajuda! Com a sua doação, vamos levar um Natal mais doce para quem mais precisa.
         </p>
       </div>
     </section>

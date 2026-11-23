@@ -28,7 +28,12 @@ export default function Sponsors() {
                   rel="noopener noreferrer"
                   title={s.name}
                 >
-                  <img src={s.logo} alt={s.name} loading="lazy" />
+                  <img
+                    src={s.logo}
+                    alt={s.name}
+                    loading="lazy"
+                    style={s.zoom ? { transform: `scale(${s.zoom})` } : undefined}
+                  />
                 </a>
               </li>
             ))}
@@ -36,7 +41,7 @@ export default function Sponsors() {
         )}
 
         <p className="sponsors-cta-text">
-          Quer ver a marca da sua empresa aqui? Fale com a gente.
+          Quer apoiar o projeto e ver a marca da sua empresa aqui?
         </p>
         <a
           className="btn btn-dourado"
@@ -44,7 +49,7 @@ export default function Sponsors() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Quero apoiar o projeto
+          Fale com a gente
         </a>
       </div>
     </section>

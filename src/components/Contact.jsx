@@ -5,7 +5,7 @@ export default function Contact() {
   return (
     <footer className="contact" id="contato">
       <div className="container">
-        <h2>Fale com a gente</h2>
+        <h2>Acompanhe o projeto</h2>
         <div className="contact-links">
           <a
             className="btn btn-dourado"
@@ -26,6 +26,17 @@ export default function Contact() {
         </div>
         <p className="contact-copy">
           © {new Date().getFullYear()} Corações Solidários · Nova Friburgo, RJ
+        </p>
+        <p className="contact-dev">
+          Desenvolvido por{" "}
+          <a
+            href={site.developer.url}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {site.developer.name} ©  
+          </a>
+           {new Date().getFullYear()}
         </p>
       </div>
     </footer>
