@@ -1,6 +1,6 @@
 export const stats = [
   { valor: "5", rotulo: "campanhas desde 2024" },
-  { valor: "4", rotulo: "instituições atendidas" },
+  { valor: "3", rotulo: "instituições atendidas" },
   { valor: "600+", rotulo: "itens entregues" },
 ];
 
