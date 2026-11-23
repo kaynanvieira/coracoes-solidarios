@@ -5,5 +5,5 @@ export const campaign = {
   institution: "Casa dos Pobres de Nova Friburgo",
   itemLabel: "panetones",
   goal: 200,
-  reached: 0, // atualizar conforme as doações
+  reached: 30, // atualizar conforme as doações
 };

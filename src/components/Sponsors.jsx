@@ -7,6 +7,8 @@ const mensagem = encodeURIComponent(
 );
 
 export default function Sponsors() {
+  const ativos = sponsors.filter((s) => s.ativo);
+
   return (
     <section className="sponsors" id="patrocinadores">
       <div className="container">
@@ -16,11 +18,16 @@ export default function Sponsors() {
           mais carinho aos abrigos da cidade.
         </p>
 
-        {sponsors.length > 0 && (
+                {ativos.length > 0 && (
           <ul className="sponsors-grid">
-            {sponsors.map((s) => (
+            {ativos.map((s) => (
               <li key={s.name}>
-                <a href={s.url} target="_blank" rel="noopener noreferrer">
+                <a
+                  href={s.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  title={s.name}
+                >
                   <img src={s.logo} alt={s.name} loading="lazy" />
                 </a>
               </li>

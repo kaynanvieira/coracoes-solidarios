@@ -17,19 +17,39 @@
 
 .sponsors-grid {
   list-style: none;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  gap: 32px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
   margin-bottom: 40px;
 }
 
+.sponsors-grid a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 110px;
+  padding: 12px;
+  background: #fff;
+  border: 1px solid #e6dfc8;
+  border-radius: var(--raio);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.sponsors-grid a:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 16px rgba(15, 59, 44, 0.12);
+}
+
 .sponsors-grid img {
-  height: 70px;
-  width: auto;
-  max-width: 160px;
+  max-width: 100%;
+  max-height: 100%;
   object-fit: contain;
+}
+
+@media (min-width: 640px) {
+  .sponsors-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
 }
 
 .sponsors-cta-text {
