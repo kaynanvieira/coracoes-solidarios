@@ -1,4 +1,4 @@
-import { site } from "../data/site";
+import { site, whatsappLink } from "../data/site";
 import "./Contact.css";
 
 export default function Contact() {
@@ -9,7 +9,7 @@ export default function Contact() {
         <div className="contact-links">
           <a
             className="btn btn-dourado"
-            href={site.whatsapp}
+            href={whatsappLink("Olá! Vim pelo site do Corações Solidários.")}
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -34,7 +34,7 @@ export default function Contact() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            {site.developer.name} ©  
+            {site.developer.name} 
           </a>
            {new Date().getFullYear()}
         </p>

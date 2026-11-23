@@ -1,7 +1,7 @@
 .sponsors {
   padding: 80px 0;
   text-align: center;
-  background: #fff;
+  background: var(--creme);
 }
 
 .sponsors h2 {

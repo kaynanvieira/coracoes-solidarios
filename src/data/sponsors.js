@@ -17,6 +17,6 @@ export const sponsors = [
   { name: "Material Santo Antônio", logo: `${base}/SantoAntonio.jpg`, url: "https://www.instagram.com/materialsantoantonio/", ativo: true, zoom: 1.25 },
   { name: "Mister Submarine", logo: `${base}/Submarine.jpg`, url: "https://www.instagram.com/mistersubmarine/", ativo: false },
   { name: "Upconta Contabilidade", logo: `${base}/Upconta.jpg`, url: "https://www.instagram.com/upcontacontabilidade/", ativo: true, zoom: 1.25 },
-  { name: "Veterinária", logo: `${base}/Veterinaria.jpg`, url: "https://www.google.com/maps?rlz=1C1GCEA_enBR1046BR1046&udm&fvr=1&pvq=Cg0vZy8xMXExZl9ycmh2IjgKMnZldGVyaW5hcmlhIGUgcGV0c2hvcCBhcGFpeG9uYWRvcyBwb3IgcXVhdHJvIHBhdGFzEAIYA4kBrgLLGAUK_C8&lqi=CjJ2ZXRlcmluYXJpYSBlIHBldHNob3AgYXBhaXhvbmFkb3MgcG9yIHF1YXRybyBwYXRhc0j6u-_fhbaAgAhaTBAAEAEQAhADEAQQBRAGGAAYAxgEGAUYBiIydmV0ZXJpbmFyaWEgZSBwZXRzaG9wIGFwYWl4b25hZG9zIHBvciBxdWF0cm8gcGF0YXOSAQx2ZXRlcmluYXJpYW6aAURDaTlEUVVsUlFVTnZaRU5vZEhsalJqbHZUMnBzYjFSdVNsZFhiRTQxVDFaU1lWcFhjM2ROVkZKMldteHNTMWRzUlJBQvoBBAgAEDs&vet=10CAAQoqAOahcKEwiA6tfUrZyYAxUAAAAAHQAAAAAQCA..i&cs=1&um=1&ie=UTF-8&fb=1&gl=br&sa=X&ftid=0x978bf65172f1cf:0x2ffc0a0518cb02ae", ativo: true, zoom: 1.25 },
+  { name: "Veterinária", logo: `${base}/Veterinaria.jpg`, url: "https://www.instagram.com/apaixonadosporquatropatas/", ativo: true, zoom: 1.25 },
   { name: "Vitaris Fit", logo: `${base}/Vitaris.jpg`, url: "https://www.instagram.com/vitarisfit/", ativo: true, zoom: 1.25 },
 ];

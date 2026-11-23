@@ -2,9 +2,7 @@ import { sponsors } from "../data/sponsors";
 import { site } from "../data/site";
 import "./Sponsors.css";
 
-const mensagem = encodeURIComponent(
-  "Olá! Tenho interesse em apoiar o projeto Corações Solidários."
-);
+import { whatsappLink } from "../data/site";
 
 export default function Sponsors() {
   const ativos = sponsors.filter((s) => s.ativo);
@@ -45,7 +43,9 @@ export default function Sponsors() {
         </p>
         <a
           className="btn btn-dourado"
-          href={`${site.whatsapp}?text=${mensagem}`}
+          href={whatsappLink(
+            "Olá! Vim pelo site do Corações Solidários e tenho interesse em apoiar o projeto."
+          )}
           target="_blank"
           rel="noopener noreferrer"
         >

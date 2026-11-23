@@ -1,3 +1,9 @@
+const numeroWhatsapp = "5522992268515";
+
+export function whatsappLink(texto) {
+  return `https://wa.me/${numeroWhatsapp}?text=${encodeURIComponent(texto)}`;
+}
+
 export const site = {
   pix: {
     key: "22992268515", // é o que será copiado (celular com +55)
