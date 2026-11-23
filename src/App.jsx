@@ -10,8 +10,8 @@ export default function App() {
       <main>
         <Hero />
         <HowToHelp />
-        <Sponsors />
         <Impact />
+        <Sponsors />
       </main>
       <Contact />
     </>

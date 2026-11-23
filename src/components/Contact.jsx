@@ -25,7 +25,8 @@ export default function Contact() {
           </a>
         </div>
         <p className="contact-copy">
-          © {new Date().getFullYear()} Corações Solidários · Nova Friburgo, RJ
+          © {new Date().getFullYear()} Corações Solidários. Todos os direitos
+          reservados. · Nova Friburgo, RJ
         </p>
         <p className="contact-dev">
           Desenvolvido por{" "}
