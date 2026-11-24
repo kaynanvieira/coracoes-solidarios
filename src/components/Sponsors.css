@@ -24,6 +24,7 @@
 }
 
 .sponsors-grid a {
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -54,4 +55,20 @@
 
 .sponsors-cta-text {
   margin-bottom: 16px;
+}
+
+.sponsor-link-icon {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  width: 16px;
+  height: 16px;
+  color: var(--dourado);
+  opacity: 0.8;
+  transition: color 0.15s ease, opacity 0.15s ease;
+}
+
+.sponsors-grid a:hover .sponsor-link-icon {
+  color: var(--vinho);
+  opacity: 1;
 }
