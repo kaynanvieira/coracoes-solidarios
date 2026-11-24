@@ -32,11 +32,11 @@ export const editions = [
       "Passamos da meta e, com o dinheiro arrecadado, fizemos uma festa. Além dos ovos, levamos suco, refrigerante e torta salgada para todos.",
     video: { id: "", vertical: true },
     fotos: [
-      { arquivo: "foto1.jpg" },
-      { arquivo: "foto2.jpg" },
-      { arquivo: "foto3.jpg" },
-      { arquivo: "foto4.jpg" },
-      { arquivo: "foto5.jpg" },
+      { arquivo: "foto1.jpeg" },
+      { arquivo: "foto2.jpeg" },
+      { arquivo: "foto3.jpeg" },
+      { arquivo: "foto4.jpeg" },
+      { arquivo: "foto5.jpeg" },
     ],
   },
   {
@@ -49,10 +49,11 @@ export const editions = [
       "Voltamos à Casa dos Pobres, agora com chocotones feitos por uma apoiadora do projeto. A meta foi alcançada e entregamos tudo durante a festa de fim de ano da casa.",
     video: { id: "", vertical: true },
     fotos: [
-      { arquivo: "foto1.jpg" },
+      { arquivo: "foto1.jpeg" },
       { arquivo: "foto2.jpg" },
-      { arquivo: "foto3.jpg" },
-      { arquivo: "foto4.jpg" },
+      { arquivo: "foto3.jpeg" },
+      { arquivo: "foto4.jpeg" },
+      { arquivo: "foto5.jpg" },
     ],
   },
   {
@@ -65,11 +66,11 @@ export const editions = [
       "Dessa vez o foco foram as crianças da APAC. Cada kit tinha coelhinho de chocolate, gibis e lápis de pintar. Levamos também geladinhos, pipoca, torta salgada, salgadinhos, refrigerante e bonés com orelhas de coelho para a criançada brincar.",
     video: { id: "", vertical: true },
     fotos: [
-      { arquivo: "foto1.jpg" },
-      { arquivo: "foto2.jpg" },
-      { arquivo: "foto3.jpg" },
-      { arquivo: "foto4.jpg" },
-      { arquivo: "foto5.jpg" },
+      { arquivo: "foto1.jpeg" },
+      { arquivo: "foto2.jpeg" },
+      { arquivo: "foto3.jpeg" },
+      { arquivo: "foto4.jpeg" },
+      { arquivo: "foto5.jpeg" },
     ],
   },
   {
