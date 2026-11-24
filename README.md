@@ -9,7 +9,7 @@ Site oficial do projeto social **Corações Solidários**, um grupo de amigos de
 </p>
 
 <p align="center">
-  <img src="docs/print-mobile.png" alt="Site no celular" width="260" />
+  <img src="docs/print-mobile.jpeg" alt="Site no celular" width="260" />
 </p>
 
 
