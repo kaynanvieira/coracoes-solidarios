@@ -24,16 +24,32 @@
   color: var(--dourado-claro);
 }
 
-.contact-copy {
-  margin-top: 48px;
-  font-size: 0.85rem;
-  opacity: 0.7;
+.contact-divider {
+  border: 0;
+  border-top: 1px solid rgba(247, 240, 220, 0.2);
+  margin: 48px 0 20px;
 }
 
+.contact-bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.85rem;
+  opacity: 0.8;
+}
+
+.contact-copy,
 .contact-dev {
-  margin-top: 8px;
-  font-size: 0.8rem;
-  opacity: 0.7;
+  margin: 0;
+}
+
+@media (min-width: 720px) {
+  .contact-bottom {
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: left;
+  }
 }
 
 .contact-dev a {

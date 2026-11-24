@@ -24,21 +24,25 @@ export default function Contact() {
             @coracoesssolidarios
           </a>
         </div>
-        <p className="contact-copy">
-          © {new Date().getFullYear()} Corações Solidários. Todos os direitos
-          reservados. · Nova Friburgo, RJ
-        </p>
-        <p className="contact-dev">
-          Desenvolvido por{" "}
-          <a
-            href={site.developer.url}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            {site.developer.name} 
-          </a>
-           {new Date().getFullYear()}
-        </p>
+        <hr className="contact-divider" />
+
+        <div className="contact-bottom">
+          <p className="contact-copy">
+            © {new Date().getFullYear()} Corações Solidários. Todos os direitos
+            reservados. · Nova Friburgo, RJ
+          </p>
+          <p className="contact-dev">
+            Desenvolvido por{" "}
+            <a
+              href={site.developer.url}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {site.developer.name}
+            </a>{" "}
+            {new Date().getFullYear()}
+          </p>
+        </div>
       </div>
     </footer>
   );
